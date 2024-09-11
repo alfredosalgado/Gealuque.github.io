@@ -33,15 +33,36 @@ a:hover{
 .box1_perfil{
     padding: 30px 30px 30px 30px;
     margin-top: 50px;
-    text-align: center;
+    text-align: start;
     align-items: center;
 }
 .box2_perfil{
     padding: 20px 20px 20px 20px;
     margin-top: 30px;
     align-items: center;
+    margin-left: 40px;
 }
 .perfilimg{
     width: 350px;
     height: 350px;
+}
+
+/*Estudios*/
+.box_experiencia{
+    justify-content: center;
+    text-align: center;
+    color: lightgray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.img_card_experiencia{
+    border: 1px solid black;
+
+}
+
+.listas{
+    text-decoration: none;
+    text-align:left;
+    font-size: small;
+    list-style-type:circle;
 }
