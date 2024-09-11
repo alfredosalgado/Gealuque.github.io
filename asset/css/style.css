@@ -35,19 +35,20 @@ a:hover{
     margin-top: 50px;
     text-align: start;
     align-items: center;
+    margin-left: 50px;
 }
 .box2_perfil{
     padding: 20px 20px 20px 20px;
     margin-top: 30px;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 .perfilimg{
     width: 350px;
     height: 350px;
 }
 
-/*Estudios*/
+/*Experiencia*/
 .box_experiencia{
     justify-content: center;
     text-align: center;
@@ -65,4 +66,37 @@ a:hover{
     text-align:left;
     font-size: small;
     list-style-type:circle;
+}
+
+/*Estudio y Certificaciones*/
+.box_estudios{
+    padding: 30px 30px 30px 30px;
+    justify-content: center;
+    text-align: center;
+    color: lightgray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.img_certificados{
+    max-width: 100%;
+    height: auto;
+}
+
+.carrusel_dise{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    width: 100%;
+    height: 500px;
+}
+.carusel_texto{
+    top: 250px;
+    bottom: 0px; 
+    left: 50%;
+    text-align: center;
+    transform: translateX(-70%);
+    color: rgb(119, 29, 20);
+    border-radius: 10px;
 }
