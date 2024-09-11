@@ -1,0 +1,47 @@
+
+body{
+    background-image: url(../img/fondo2.jpeg);
+    background-size: cover;
+}
+a:hover{
+    color: gray;
+}
+/*Navbar*/
+.nav_titulo{
+    display: block;
+    text-align: start;
+}
+.linkedinimg{
+    display:inline-flex;
+    width: 10px;
+    height: 10px;
+}
+
+.link1{
+    text-decoration: none;
+    color:white;
+    font-size: smaller;
+}
+
+/*Perfil*/
+.box_p{
+    margin-top: 70px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    color: lightgray;
+}
+.box1_perfil{
+    padding: 30px 30px 30px 30px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+.box2_perfil{
+    padding: 20px 20px 20px 20px;
+    margin-top: 30px;
+    align-items: center;
+}
+.perfilimg{
+    width: 350px;
+    height: 350px;
+}
