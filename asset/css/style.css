@@ -2,6 +2,7 @@
 body{
     background-image: url(../img/fondo2.jpeg);
     background-size: cover;
+    font-family: "Playfair Display", serif;
 }
 a:hover{
     color: gray;
@@ -17,36 +18,39 @@ a:hover{
     height: 10px;
 }
 
-.link1{
-    text-decoration: none;
-    color:white;
-    font-size: smaller;
-}
-
 /*Perfil*/
+
 .box_p{
-    margin-top: 70px;
-    padding: 10px 10px 10px 10px;
+    background-image: url(../img/fondo_header.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 630px;
+    padding-top: 90px; 
     display: flex;
     color: lightgray;
 }
 .box1_perfil{
-    padding: 30px 30px 30px 30px;
-    margin-top: 50px;
     text-align: start;
     align-items: center;
-    margin-left: 50px;
-}
-.box2_perfil{
-    padding: 20px 20px 20px 20px;
-    margin-top: 30px;
-    align-items: center;
-    margin-left: 100px;
+    margin-left: 60px;
 }
 .perfilimg{
     width: 350px;
     height: 350px;
 }
+.barra_iconos{
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+}
+.iconos{
+    color: aliceblue;
+    margin: 0 40px;
+}
+
 
 /*Experiencia*/
 .box_experiencia{
@@ -81,22 +85,17 @@ a:hover{
     max-width: 100%;
     height: auto;
 }
-
-.carrusel_dise{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    text-align: center;
-    padding: 30px 30px 30px 30px;
-    width: 100%;
-    height: 500px;
+.contenedor_flechas{
+    width: 50%;
 }
-.carusel_texto{
-    top: 250px;
-    bottom: 0px; 
-    left: 50%;
-    text-align: center;
-    transform: translateX(-70%);
-    color: rgb(119, 29, 20);
-    border-radius: 10px;
+.box_certificado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link1{
+    text-decoration: none;
+    color:white;
+    font-size: smaller;
 }
