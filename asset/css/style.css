@@ -64,7 +64,6 @@ a:hover{
     border: 1px solid black;
 
 }
-
 .listas{
     text-decoration: none;
     text-align:left;
@@ -72,30 +71,87 @@ a:hover{
     list-style-type:circle;
 }
 
+
 /*Estudio y Certificaciones*/
-.box_estudios{
-    padding: 30px 30px 30px 30px;
+
+        /*Titulo*/
+.titulo_estudios{
+    padding: 30px;
     justify-content: center;
     text-align: center;
     color: lightgray;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+ /*Contenido*/
+.contenedor_estudios{
+    display: flex;
+}
+
+    /*Certificaciones*/
 .img_certificados{
     max-width: 100%;
     height: auto;
 }
-.contenedor_flechas{
-    width: 50%;
+.imgscrum{
+    width: 80%;
+    height: 90%;
+    margin-left: 65px;
 }
 .box_certificado{
+    border: 2px solid white;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 400px;
+}
+.contenedor_flechas{
+    width: 100%;  
 }
 .link1{
     text-decoration: none;
     color:white;
     font-size: smaller;
 }
+
+    /*Estudios*/
+
+.cont_info{
+    display: flex;
+    padding: 10px;
+}
+.img1_estudio{
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.img2_estudio{
+    border-radius: 5px;
+    object-fit: cover;
+    width: 80px;
+    height: auto;
+}
+.img3_estudio{
+    border-radius: 5px;
+    object-fit: cover;
+    width: 70px;
+    height: auto;
+}
+.box_estudios{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+.box_mini_img{
+    padding-left: 100px;
+    display:block;   
+}
+.box_mini_text{
+    padding-left: 60px;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+/*Acerca de mi*/
