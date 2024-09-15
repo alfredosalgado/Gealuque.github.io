@@ -155,3 +155,27 @@ a:hover{
 }
 
 /*Acerca de mi*/
+.titulo_aboutme{
+        padding: 40px;
+        justify-content: center;
+        text-align: center;
+        color: lightgray;
+        padding-top: 50px;
+        padding-bottom: 30px;
+}
+.text_aboutme{
+    padding: 30px 20px 20px 20px;
+    justify-content: center;
+    text-align: center;
+    color: lightgray; 
+}
+.foto_aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.size_aboutme{
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+}
