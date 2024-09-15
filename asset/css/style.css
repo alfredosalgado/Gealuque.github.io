@@ -179,3 +179,63 @@ a:hover{
     width: 80%;
     height: auto;
 }
+
+/*Animaciones*/
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 4s ease-in-out;
+}
+.slide-in {
+    animation: slideIn 5s ease-out;
+}
+
+/*footer*/
+footer{
+    color: lightgray; 
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.barra_iconos2{
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.iconos2{
+    display:inline-table;
+    color: aliceblue;
+    margin: 0 30px;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+.text_footer{
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+    margin-top: 7px;
+}
+.icon_footer{
+    margin-bottom: 3px;
+}
