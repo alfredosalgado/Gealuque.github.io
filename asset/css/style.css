@@ -192,7 +192,6 @@ a:hover{
         opacity: 1;
     }
 }
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -201,10 +200,34 @@ a:hover{
         opacity: 1;
     }
 }
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: red;
+    }
+}
 
 .fade-in {
     animation: fadeIn 4s ease-in-out;
 }
+
+.typing-effect {
+    font-family: "Playfair Display", serif;
+    overflow: hidden; 
+    border-right: .1em solid red; 
+    animation: typing 4s steps(8, end), blink-caret .50s step-end;
+}
+
 .slide-in {
     animation: slideIn 5s ease-out;
 }
@@ -226,7 +249,7 @@ footer{
 .iconos2{
     display:inline-table;
     color: aliceblue;
-    margin: 0 30px;
+    margin: 0 20px;
     text-decoration: none;
     margin-bottom: 7px;
 }
@@ -238,4 +261,23 @@ footer{
 }
 .icon_footer{
     margin-bottom: 3px;
+}
+
+/*Portafolio*/
+.titulo_portafolio{
+    justify-content: center;
+    text-align: center;
+    color: lightgray;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.portafolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.secundario_color{
+    color: aliceblue;
 }
