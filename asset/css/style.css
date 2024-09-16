@@ -74,7 +74,7 @@ a:hover{
 
 /*Estudio y Certificaciones*/
 
-        /*Titulo*/
+/*Titulo*/
 .titulo_estudios{
     padding: 30px;
     justify-content: center;
@@ -84,12 +84,15 @@ a:hover{
     padding-bottom: 30px;
 }
 
- /*Contenido*/
+/*Contenido*/
 .contenedor_estudios{
     display: flex;
 }
 
-    /*Certificaciones*/
+/*Certificaciones*/
+.indicador{
+    margin-top: 700px;
+}
 .img_certificados{
     max-width: 100%;
     height: auto;
@@ -115,7 +118,7 @@ a:hover{
     font-size: smaller;
 }
 
-    /*Estudios*/
+/*Estudios*/
 
 .cont_info{
     display: flex;
@@ -153,6 +156,7 @@ a:hover{
     font-size: 15px;
     line-height: 1.2;
 }
+
 
 /*Acerca de mi*/
 .titulo_aboutme{
