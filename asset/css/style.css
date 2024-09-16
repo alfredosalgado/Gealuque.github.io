@@ -19,7 +19,6 @@ a:hover{
 }
 
 /*Perfil*/
-
 .box_p{
     background-image: url(../img/fondo_header.jpeg);
     background-size:cover;
@@ -51,6 +50,27 @@ a:hover{
     margin: 0 40px;
 }
 
+/*Skills*/
+.titulo_skills{
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    color: lightgray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.barras_skills{
+    justify-content: center;
+    text-align: center;
+    color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.textobarras{
+    text-align: end;
+    position: relative;
+    margin-bottom: 5px;
+}
 
 /*Experiencia*/
 .box_experiencia{
@@ -184,6 +204,27 @@ a:hover{
     height: auto;
 }
 
+/*Formulario*/
+.text_formulario{
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    color: lightgray; 
+}
+.box_formulario{
+    font-size: small;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.formulario_customizado{
+    padding-left: 450px;
+}
+.boton_customizado{
+    margin-top: 5px;
+    padding-left: 640px;
+}
 /*Animaciones*/
 
 @keyframes slideIn {
@@ -220,7 +261,6 @@ a:hover{
         border-color: red;
     }
 }
-
 .fade-in {
     animation: fadeIn 4s ease-in-out;
 }
